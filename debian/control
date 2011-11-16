@@ -1,0 +1,51 @@
+Source: kohana3.2
+Section: php
+Priority: extra
+Maintainer: Kiall Mac Innes <kiall@managedit.ie>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.2
+
+Package: kohana3.2
+Architecture: all
+Depends: ${misc:Depends}
+Description: Kohana 3.2 Core
+
+Package: kohana3.2-auth
+Architecture: all
+Depends: kohana3.2, ${misc:Depends}
+Description: Kohana 3.2 Auth Module
+
+Package: kohana3.2-cache
+Architecture: all
+Depends: kohana3.2, ${misc:Depends}
+Description: Kohana 3.2 Cache Module
+
+Package: kohana3.2-codebench
+Architecture: all
+Depends: kohana3.2, ${misc:Depends}
+Description: Kohana 3.2 Code Bench Module
+
+Package: kohana3.2-database
+Architecture: all
+Depends: kohana3.2, ${misc:Depends}
+Description: Kohana 3.2 Database Module
+
+Package: kohana3.2-image
+Architecture: all
+Depends: kohana3.2, ${misc:Depends}
+Description: Kohana 3.2 Image Module
+
+Package: kohana3.2-orm
+Architecture: all
+Depends: kohana3.2, kohana3.2-database, ${misc:Depends}
+Description: Kohana 3.2 ORM Module
+
+Package: kohana3.2-unittest
+Architecture: all
+Depends: kohana3.2, ${misc:Depends}
+Description: Kohana 3.2 Unit Testing Module
+
+Package: kohana3.2-userguide
+Architecture: all
+Depends: kohana3.2, ${misc:Depends}
+Description: Kohana 3.2 User Guide Module
